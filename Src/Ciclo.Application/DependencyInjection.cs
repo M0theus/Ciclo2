@@ -71,7 +71,8 @@ public static class DependencyInjection
             .AddScoped<IAdministradorAuthService, AdministradorAuthService>()
             .AddScoped<IUsuarioAuthService, UsuarioAuthService>()
             .AddScoped<IAdministradorService, AdministradorService>()
-            .AddScoped<IUsuarioService, UsuarioService>();
+            .AddScoped<IUsuarioService, UsuarioService>()
+            .AddScoped<ICicloMenstrualService, CicloMenstrualService>();
     }
     
     public static void UseStaticFileConfiguration(this IApplicationBuilder app, IConfiguration configuration)

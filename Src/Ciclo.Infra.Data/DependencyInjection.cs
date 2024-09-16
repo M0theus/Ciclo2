@@ -38,6 +38,7 @@ public static class DependencyInjection
     {
         service.AddScoped<IAdministradorRepository, AdministradorRepository>();
         service.AddScoped<IUsuarioRepository, UsuarioRepository>();
+        service.AddScoped<ICicloMenstrualRepository, CicloMenstrualRepository>();
     }
 
     public static void UseMigrations(this IApplicationBuilder app, IServiceProvider services)

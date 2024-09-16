@@ -1,4 +1,5 @@
 using AutoMapper;
+using Ciclo.Application.Dtos.V1.CicloMenstrual;
 using Ciclo.Application.Dtos.V1.Usuario;
 using Ciclo.Domain.Entities;
 
@@ -21,6 +22,14 @@ public class AutoMapperProfile : Profile
         CreateMap<UsuarioDto, Usuario>().ReverseMap();
         CreateMap<AdicionarUsuarioDto, Usuario>().ReverseMap();
         CreateMap<AtualizarUsuarioDto, Usuario>().ReverseMap();
+
+        #endregion
+
+        #region Ciclo Menstrual
+
+        CreateMap<CicloMenstrualDto, CicloMenstrual>().ReverseMap();
+        CreateMap<AdicionarCicloMenstrualDto, CicloMenstrual>().ReverseMap();
+        CreateMap<AtualizarCicloMenstrualDto, CicloMenstrual>().ReverseMap();
 
         #endregion
     }

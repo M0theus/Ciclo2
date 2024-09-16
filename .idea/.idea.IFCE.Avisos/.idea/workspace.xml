@@ -7,7 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="989b0c5e-0661-48a3-8f09-908ad3ba05b5" name="Changes" comment="" />
+    <list default="true" id="989b0c5e-0661-48a3-8f09-908ad3ba05b5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Src/Ciclo.Domain/Contracts/Repositories/ICicloMenstrualRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Ciclo.Domain/Entities/CicloMenstrual.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Src/Ciclo.Domain/Validators/CicloMenstrualValidator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Ciclo.Domain/Ciclo.Domain.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Ciclo.Domain/Ciclo.Domain.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Src/Ciclo.Domain/Entities/Usuario.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Src/Ciclo.Domain/Entities/Usuario.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +22,28 @@
   <component name="DpaMonitoringSettings">
     <option name="autoShow" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "M0theus"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:M0theus/Ciclo2.git",
+    "accountId": "daced6b9-df91-4b2a-825a-8d33ff9863ed"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/e9956c4e8e454d2c920b1620339ffd9967200/fd/28784b48/IPasswordHasher`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Src/Ciclo.Domain/Contracts/Repositories/ICicloMenstrualRepository.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2m7dap238UYPrTHex771EYGK6OV" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -31,6 +53,7 @@
   "keyToString": {
     ".NET Launch Settings Profile.IFCE.Avisos.Api: Avisos - Development.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1726431622676</updated>
-      <workItem from="1726431624521" duration="11266000" />
+      <workItem from="1726431624521" duration="13519000" />
     </task>
     <servers />
   </component>

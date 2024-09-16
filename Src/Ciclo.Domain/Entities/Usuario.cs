@@ -10,6 +10,8 @@ public class Usuario : Entity, IAggregateRoot, ISoftDelete
     public string Email { get; set; } = null!;
     public string Senha { get; set; } = null!;
     public bool Ativo { get; set; }
+
+    public virtual List<CicloMenstrual> CiclosMenstruais { get; set; } = new();
     
     public override bool Validate(out ValidationResult validationResult)
     {

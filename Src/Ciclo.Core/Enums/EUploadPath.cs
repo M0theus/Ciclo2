@@ -4,6 +4,6 @@ namespace Ciclo.Core.Enums;
 
 public enum EUploadPath
 {
-    [Description("imagem-avisos")]
-    ImagemAvisos,
+    [Description("imagem")]
+    Imagem,
 }
